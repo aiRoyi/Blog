@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://airoyi.github.io/bookshelf/2017/03/16/hello-world</loc>
+    <lastmod>2017-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://airoyi.github.io/bookshelf/</loc>
+    <lastmod>2017-03-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://airoyi.github.io/bookshelf/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://airoyi.github.io/bookshelf/tags/essay/</loc>
+    <lastmod>2017-03-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://airoyi.github.io/bookshelf/categories/essay/</loc>
+    <lastmod>2017-03-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://airoyi.github.io/bookshelf/post/</loc>
+    <lastmod>2017-03-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://airoyi.github.io/bookshelf/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
