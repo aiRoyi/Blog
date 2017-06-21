@@ -10,12 +10,21 @@
     <atom:link href="https://airoyi.github.io/Blog/categories/essay/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Hello World</title>
-      <link>https://airoyi.github.io/Blog/2017/03/16/hello-world</link>
+      <title>About Me</title>
+      <link>https://airoyi.github.io/Blog/2017/03/16/about-me</link>
       <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://airoyi.github.io/Blog/2017/03/16/hello-world</guid>
-      <description>&lt;p&gt;Hello! World!&lt;/p&gt;
+      <guid>https://airoyi.github.io/Blog/2017/03/16/about-me</guid>
+      <description>&lt;p&gt;Welcome to my blog. My name is Chen Meiyi, I&amp;rsquo;m from Chengdu, China.&lt;/p&gt;
+
+&lt;p&gt;I love music and games, they are part of my life.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m a mediocre programmer. Yeah, even a little naive sometimes.&lt;/p&gt;
+
+&lt;p&gt;Sharing and learning are import things in my mind. If you are also a person likes sharing and learning and
+trying new things no matter they&amp;rsquo;re games, techs, music, food, or intersting books. I&amp;rsquo;d like to know.&lt;/p&gt;
+
+&lt;p&gt;Please be free to send me email:  &lt;a href=&#34;mailto:a4527943@qq.com&#34;&gt;a4527943@qq.com&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
