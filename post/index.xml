@@ -2,21 +2,104 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on </title>
-    <link>https://airoyi.github.io/blog/post/index.xml</link>
+    <link>https://airoyi.github.io/Blog/post/index.xml</link>
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
-    <lastBuildDate>Thu, 16 Mar 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://airoyi.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Jun 2017 15:23:36 +0800</lastBuildDate>
+    <atom:link href="https://airoyi.github.io/Blog/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Hello World</title>
-      <link>https://airoyi.github.io/blog/2017/03/16/hello-world</link>
+      <title>Network Protocol Layering</title>
+      <link>https://airoyi.github.io/Blog/2017/06/21/network-protocol-layering</link>
+      <pubDate>Wed, 21 Jun 2017 15:23:36 +0800</pubDate>
+      
+      <guid>https://airoyi.github.io/Blog/2017/06/21/network-protocol-layering</guid>
+      <description>
+
+&lt;h2 id=&#34;protocol-layering&#34;&gt;Protocol Layering&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Five-layer Internet protocol statck
+&lt;img src=&#34;images/5-layer.PNG&#34; alt=&#34;Five-layer Internet protocol statck&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;application-layer-message&#34;&gt;Application Layer &amp;ndash; Message&lt;/h3&gt;
+
+&lt;p&gt;The application layer is where network applications and their application-layer protocols side.
+The Internet&amp;rsquo;s application layer includes many protocols, such as the HTTP protocol, SMTP, and FTP.
+An application-layer protocol is distributed over mutiple end systems, with the application in one
+end system using the protocol to exchange packets of information with the application in another
+end system.&lt;/p&gt;
+
+&lt;h3 id=&#34;transport-layer-segment&#34;&gt;Transport Layer &amp;ndash; Segment&lt;/h3&gt;
+
+&lt;p&gt;The Internet&amp;rsquo;s transport layer transports application-layer messages between application endpoints.
+In the internet there are 2 transport protocols. TCP and UDP, either of which can transport
+application-layer messages. TCP provides a connection-oriented service to its applications.
+This service includes guaranteed delivery of application-layer messages to the distination and flow
+control. TCP also breaks long messages into short segments and provides congestion-control mechanism,
+so that a source throttles its transmission rate when the network is congested. The UDP protocol provides
+a connectionless service to its applications. This is no- frills service that provides no reliability,
+no flow control, and no congestion control.&lt;/p&gt;
+
+&lt;h3 id=&#34;network-layer-datagrams&#34;&gt;Network Layer &amp;ndash; Datagrams&lt;/h3&gt;
+
+&lt;p&gt;The Internet&amp;rsquo;s network layer is responsible for moving network-layer packets known as datagrams from one
+host to another. The Internet&amp;rsquo;s transport-layer protocol(UDP or TCP) in a source host passes a transport-layer
+segment and a distination address to the network layer, just like you would give the postal service a letter
+with a distination address. The network layer then provides the service of delivering the segment to transport
+layer in the destination host.&lt;/p&gt;
+
+&lt;p&gt;The Internet&amp;rsquo;s network layer includes the celebrated IP Protocol, which defines the fields in the datagram
+as well as how the end systems and routers act on these fields. There&amp;rsquo;s only one IP protocol, and all Internet
+components that have the network layer must run the IP protocol. The Internet&amp;rsquo;s network layer also includes
+routing protocols that determine the routers that datagrams take between sources and destinations.
+The Internet has many routing protocols. Although the network layer contains both IP protocol and routing
+protocols, it&amp;rsquo;s often simply referred to as the IP layer, reflecting the fact that IP is the glue that
+binds the Internet together.&lt;/p&gt;
+
+&lt;h3 id=&#34;link-layer-frames&#34;&gt;Link Layer &amp;ndash; Frames&lt;/h3&gt;
+
+&lt;p&gt;The Internet&amp;rsquo;s network layer routes a datagram through a series of routers between the source and destination.
+To move a packet from one node to the next node in the route, the network layer relies on the services of the
+link layer. In particular, at each node, the network layer passes the datagram down to the link layer, which
+delivers the datagram to the next node along the route. At this next node, the link layer passes the datagram
+up to the network layer.&lt;/p&gt;
+
+&lt;p&gt;The services provided by the link layer depend on the specific link-layer protocol that is employed over the
+link. For example, some link-layer protocols provide reliable delivery, from transmitting node, over one link,
+to receiving node. The network layer will receive a different service from each of the different link-layer
+protocols.&lt;/p&gt;
+
+&lt;h3 id=&#34;physical-layer&#34;&gt;Physical Layer&lt;/h3&gt;
+
+&lt;p&gt;While the job of the link layer is to move entire frames from one network element to an adjacent network
+element, the job the physical layer is to move the individual bits within the frame from one node to the
+next. The protocols in this layer are again link dependent and future depend on the actual transmission
+medium of the link. For example, Ethernet has many physical-layer protocols: one for twisted-pair copper
+wire, another for coaxial cable, another for fiber, and so on. In each case, a bit is moved across the link
+in a different way.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://airoyi.github.io/Blog/2017/03/16/about-me</link>
       <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://airoyi.github.io/blog/2017/03/16/hello-world</guid>
-      <description>&lt;p&gt;Hello! World!&lt;/p&gt;
+      <guid>https://airoyi.github.io/Blog/2017/03/16/about-me</guid>
+      <description>&lt;p&gt;Welcome to my blog. My name is Chen Meiyi, I&amp;rsquo;m from Chengdu, China.&lt;/p&gt;
+
+&lt;p&gt;I love music and games, they are part of my life.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m a mediocre programmer. Yeah, even a little naive sometimes.&lt;/p&gt;
+
+&lt;p&gt;Sharing and learning are import things in my mind. If you are also a person likes sharing and learning and
+trying new things no matter they&amp;rsquo;re games, techs, music, food, or intersting books. I&amp;rsquo;d like to know.&lt;/p&gt;
+
+&lt;p&gt;Please be free to send me email:  &lt;a href=&#34;mailto:a4527943@qq.com&#34;&gt;a4527943@qq.com&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
