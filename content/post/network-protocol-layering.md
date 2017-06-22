@@ -65,3 +65,19 @@ next. The protocols in this layer are again link dependent and future depend on 
 medium of the link. For example, Ethernet has many physical-layer protocols: one for twisted-pair copper 
 wire, another for coaxial cable, another for fiber, and so on. In each case, a bit is moved across the link 
 in a different way.
+
+* Seven-layer ISO OSI reference model
+![Seven-layer ISO OSI reference model](images/7-layer.PNG)
+
+### The OSI Model
+The Internet Origanization for Standardization(ISO) proposed that computer networks be organized around seven 
+layers, call the Open Systems Interconnection(OSI) model. The seven layers of OSI reference model are: 
+application layer, presentation layer, session layer, transport layer, network layer, data link layer, 
+and physical layer. The functionality of live of these layers is roughly the same as their similarly named 
+Internet counterparts.
+
+The role of presentation layer is to provide services that allow communicating application to interpret the 
+meaning of data exchanged. The services include data compression and data encryption as well as data description. 
+
+The session layer provides for delimiting and synchronization of data exchange, including the means to build 
+a checkpointing and recovery scheme.
