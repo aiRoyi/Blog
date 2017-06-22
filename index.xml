@@ -81,6 +81,25 @@ next. The protocols in this layer are again link dependent and future depend on 
 medium of the link. For example, Ethernet has many physical-layer protocols: one for twisted-pair copper
 wire, another for coaxial cable, another for fiber, and so on. In each case, a bit is moved across the link
 in a different way.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Seven-layer ISO OSI reference model
+&lt;img src=&#34;images/7-layer.PNG&#34; alt=&#34;Seven-layer ISO OSI reference model&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;the-osi-model&#34;&gt;The OSI Model&lt;/h3&gt;
+
+&lt;p&gt;The Internet Origanization for Standardization(ISO) proposed that computer networks be organized around seven
+layers, call the Open Systems Interconnection(OSI) model. The seven layers of OSI reference model are:
+application layer, presentation layer, session layer, transport layer, network layer, data link layer,
+and physical layer. The functionality of live of these layers is roughly the same as their similarly named
+Internet counterparts.&lt;/p&gt;
+
+&lt;p&gt;The role of presentation layer is to provide services that allow communicating application to interpret the
+meaning of data exchanged. The services include data compression and data encryption as well as data description.&lt;/p&gt;
+
+&lt;p&gt;The session layer provides for delimiting and synchronization of data exchange, including the means to build
+a checkpointing and recovery scheme.&lt;/p&gt;
 </description>
     </item>
     
@@ -92,12 +111,12 @@ in a different way.&lt;/p&gt;
       <guid>https://airoyi.github.io/Blog/2017/03/16/about-me</guid>
       <description>&lt;p&gt;Welcome to my blog. My name is Chen Meiyi, I&amp;rsquo;m from Chengdu, China.&lt;/p&gt;
 
-&lt;p&gt;I love music and games, they are part of my life.&lt;/p&gt;
+&lt;p&gt;I love music and games, they are parts of my life.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;m a mediocre programmer. Yeah, even a little naive sometimes.&lt;/p&gt;
 
 &lt;p&gt;Sharing and learning are import things in my mind. If you are also a person likes sharing and learning and
-trying new things no matter they&amp;rsquo;re games, techs, music, food, or intersting books. I&amp;rsquo;d like to know.&lt;/p&gt;
+trying new things no matter they&amp;rsquo;re games, techs, musics, foods, or intersting books. I&amp;rsquo;d like to know.&lt;/p&gt;
 
 &lt;p&gt;Please be free to send me email:  &lt;a href=&#34;mailto:a4527943@qq.com&#34;&gt;a4527943@qq.com&lt;/a&gt;&lt;/p&gt;
 </description>
